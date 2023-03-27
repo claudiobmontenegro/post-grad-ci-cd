@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="DESKTOP-7RHMUH3" name="ValoresTest" skipped="0" tests="2" time="0.068" timestamp="2023-03-27T19:19:47">
+  <properties>
+    <property name="build.test.dir" value="C:\Users\Cláudio\eclipse-workspace\exercicio2\bin\tests" />
+    <property name="ant.library.dir" value="C:\Users\Cláudio\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib" />
+    <property name="java.specification.version" value="17" />
+    <property name="ant.project.name" value="Sample Project" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.class.path" value="C:\Users\Cláudio\eclipse-workspace\exercicio2\lib\junit-4.12.jar;C:\Users\Cláudio\eclipse-workspace\exercicio2\lib\hamcrest-core-1.3.jar;C:\Users\Cláudio\eclipse-workspace\exercicio2\bin;C:\Users\Cláudio\eclipse-workspace\exercicio2\bin\tests;C:\Users\Cláudio\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-launcher.jar;C:\Users\Cláudio\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar;C:\Users\Cláudio\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit.jar;C:\Users\Cláudio\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant-junit4.jar" />
+    <property name="java.vm.vendor" value="Eclipse Adoptium" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://adoptium.net/" />
+    <property name="source.dir" value="C:\Users\Cláudio\eclipse-workspace\exercicio2\src" />
+    <property name="ant.file.type.Sample Project" value="file" />
+    <property name="os.name" value="Windows 11" />
+    <property name="java.vm.specification.version" value="17" />
+    <property name="user.country" value="BR" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.boot.library.path" value="C:\Users\Cláudio\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ValoresTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Cláudio\eclipse-workspace\exercicio2\recordtest\TEST-ValoresTest.xml crashfile=C:\Users\Cláudio\eclipse-workspace\exercicio2\junitvmwatcher11380688816778354255.properties propsfile=C:\Users\Cláudio\eclipse-workspace\exercicio2\junit8468588013988300578.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="test.dir" value="C:\Users\Cláudio\eclipse-workspace\exercicio2\src" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\Cláudio" />
+    <property name="user.language" value="pt" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2023-01-17" />
+    <property name="java.home" value="C:\Users\Cláudio\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre" />
+    <property name="file.separator" value="\" />
+    <property name="basedir" value="C:\Users\Cláudio\eclipse-workspace\exercicio2" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="17" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="doc.dir" value="docs" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="17.0.6+10" />
+    <property name="java.security.manager" value="allow" />
+    <property name="user.name" value="Cl udio" />
+    <property name="ant.file" value="C:\Users\Cláudio\eclipse-workspace\exercicio2\build.xml" />
+    <property name="record.dir" value="C:\Users\Cláudio\eclipse-workspace\exercicio2\recordtest" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.project.invoked-targets" value="main" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="java.vendor.version" value="Temurin-17.0.6+10" />
+    <property name="build.dir" value="C:\Users\Cláudio\eclipse-workspace\exercicio2\bin" />
+    <property name="ant.core.lib" value="C:\Users\Cláudio\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues" />
+    <property name="java.io.tmpdir" value="C:\Users\CLUDIO~1\AppData\Local\Temp\" />
+    <property name="ant.file.Sample Project" value="C:\Users\Cláudio\eclipse-workspace\exercicio2\build.xml" />
+    <property name="java.version" value="17.0.6" />
+    <property name="user.dir" value="C:\Users\Cláudio\eclipse-workspace\exercicio2" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Users\Cláudio\.p2\pool\plugins\org.apache.ant_1.10.12.v20211102-1452" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="native.encoding" value="Cp1252" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+    <property name="java.library.path" value="C:\Users\Cláudio\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Cl udio/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Users/Cl udio/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\Program Files (x86)\Eclipse Adoptium\jre-8.0.352.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Cl udio\AppData\Local\Microsoft\WindowsApps;C:\Users\Cl udio\AppData\Local\GitHubDesktop\bin;C:\Windows\System32;;." />
+    <property name="java.vendor" value="Eclipse Adoptium" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="17.0.6+10" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="61.0" />
+    <property name="ant.project.default-target" value="main" />
+  </properties>
+  <testcase classname="ValoresTest" name="testDel" time="0.004">
+    <failure message="expected:&lt;152&gt; but was:&lt;-1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;152&gt; but was:&lt;-1&gt;
+	at ValoresTest.testDel(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+  </testcase>
+  <testcase classname="ValoresTest" name="testIns" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

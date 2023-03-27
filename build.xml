@@ -1,0 +1,69 @@
+<project name="Sample Project" default="main" basedir=".">
+	<property name="source.dir" location="src" />
+	<property name="test.dir" location="src" />
+	<property name="build.dir" location="bin" />
+	<property name="build.test.dir" location="bin/tests" />
+	<property name="doc.dir" value="docs" />
+	<property name="record.dir" location="recordtest" />
+
+	<path id="junit.class.path">
+		<pathelement location="lib/junit-4.12.jar" />
+		<pathelement location="lib/hamcrest-core-1.3.jar" />
+		<pathelement location="${build.dir}" />
+	</path>
+
+	<target name="clean">
+		<delete dir="${doc.dir}" />
+		<delete dir="${build.dir}" />
+		<delete dir="${build.test.dir}" />
+		<delete dir="${record.dir}" />
+	</target>
+
+	<target name="init" description="criando os diretorios">
+		<mkdir dir="${doc.dir}" />
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${build.test.dir}" />
+		<mkdir dir="${record.dir}" />
+	</target>
+
+	<target name="compile" depends="clean,init">
+		<javac srcdir="${source.dir}" destdir="${build.dir}" includeantruntime="false">
+			<classpath refid="junit.class.path" />
+		</javac>
+		<javac srcdir="${test.dir}" destdir="${build.test.dir}" includeantruntime="false">
+			<classpath refid="junit.class.path" />
+		</javac>
+	</target>
+
+	<target name="test" depends="compile">
+		<junit printsummary="yes" fork="true">
+			<classpath>
+				<path refid="junit.class.path" />
+				<pathelement location="${build.test.dir}" />
+			</classpath>
+			<formatter type="xml" />
+			<batchtest todir="${record.dir}">
+				<fileset dir="${test.dir}">
+					<include name="**/*Test*.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+
+	<target name="doc" description="generate documentation">
+		<javadoc sourcepath="${source.dir}" destdir="${doc.dir}">
+			<classpath refid="junit.class.path" />
+			<fileset dir="${source.dir}">
+				<include name="**" />
+			</fileset>
+		</javadoc>
+	</target>
+
+	<target name="package">
+		<mkdir dir="jar" />
+		<jar destfile="jar/Valores.jar" basedir="bin" />
+	</target>
+	<target name="main" depends="clean, init, compile, test, doc, package">
+		<description>Main target</description>
+	</target>
+</project>
